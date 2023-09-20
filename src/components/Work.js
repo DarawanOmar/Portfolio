@@ -38,7 +38,7 @@ const Work = () => {
                     <a href="https://www.behance.net/gallery/180458825/RealEstate-Application"><span className='text-2xl text-white px-6 py-1 rounded-full border hover:bg-black/70 duration-500 cursor-pointer'>See</span></a>
                   </div>
                   <div className='absolute -bottom-full left-[250px] md:left-[400px] group-hover:bottom-[50px] transition-all duration-1000 z-40'>
-                    <a href="#"><span className='text-2xl text-white px-6 py-1 rounded-full border hover:bg-black/70 duration-500 cursor-pointer'>Visit</span></a>
+                    <a href="https://www.behance.net/gallery/180458825/RealEstate-Application"><span className='text-2xl text-white px-6 py-1 rounded-full border hover:bg-black/70 duration-500 cursor-pointer'>Visit</span></a>
                   </div>
                 </div>
             </motion.div>

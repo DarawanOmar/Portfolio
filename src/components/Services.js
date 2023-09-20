@@ -1,34 +1,10 @@
 import React from 'react';
-import {BsArrowUpRight} from 'react-icons/bs'
 import {motion} from 'framer-motion'
 import { fadeIn} from '../variants';
 import laravel from '../assets/laravel.png'
 import firbase from '../assets/firebase.png'
 import css from '../assets/css.png'
 import html from '../assets/html.png'
-
-const services = [
-  {
-    name:"دیزاینی وێب",
-    discription : "وێب سایت و وێب ئەبڵیکەیشناکان بە زمان و فرەیمۆڕکە باش و نایابەکان دروست دەکەم",
-    link : "زیاتر ببینە"
-  },
-  {
-    name:"گەشەپێدەری",
-    discription : "وێب سایت و وێب ئەبڵیکەیشناکان بە زمان و فرەیمۆڕکە باش و نایابەکان دروست دەکەم",
-    link : "زیاتر ببینە"
-  },
-  {
-    name:"مارکێتئنگ",
-    discription : "وێب سایت و وێب ئەبڵیکەیشناکان بە زمان و فرەیمۆڕکە باش و نایابەکان دروست دەکەم",
-    link : "زیاتر ببینە"
-  },
-  {
-    name:"پڕۆداکت",
-    discription : "وێب سایت و وێب ئەبڵیکەیشناکان بە زمان و فرەیمۆڕکە باش و نایابەکان دروست دەکەم",
-    link : "زیاتر ببینە"
-  },
-]
 
 const Services = () => {
   return (
@@ -44,38 +20,38 @@ const Services = () => {
             {/* Services */}
             <motion.div  className='flex-1 grid grid-cols-2 gap-5 text-right px-2' variants={fadeIn('left',0.5)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.4}}>
                 <div className='rounded-md border-2 border-accent flex flex-col justify-center items-center'>
-                  <img className='max-h-[130px] max-w-[120px]  object-cover' src={html} />
+                  <img className='max-h-[130px] max-w-[120px] object-cover' src={html} alt="HtmlPhoto" />
                   <h1 className='font-bold mb-2 mt-1'>HTML</h1>
                   <span>80%</span>
                 </div>
                 
                 <div className='rounded-md border-2 border-accent flex flex-col justify-center items-center'>
-                  <img className='max-h-[130px] max-w-[120px]  object-cover' src={css} />
+                  <img className='max-h-[130px] max-w-[120px] object-cover' alt="CssPhoto" src={css} />
                   <h1 className='font-bold mb-2 mt-1'>Css</h1>
                   <span>70%</span>
                 </div>
                 <div className='rounded-md border-2 border-accent flex flex-col justify-center items-center'>
-                  <img className='max-h-[130px] max-w-[120px]  object-cover bg-transparent' src='https://files.raycast.com/sjxs3pxsc6k63ju0fzv8l3cu4v90' />
+                  <img className='max-h-[130px] max-w-[120px] object-cover bg-transparent' alt="TailwindcssPhoto" src='https://files.raycast.com/sjxs3pxsc6k63ju0fzv8l3cu4v90' />
                   <h1 className='font-bold mb-2 mt-1'>Tailwindcss</h1>
                   <span>85%</span>
                 </div>
                 <div className='rounded-md border-2 border-accent flex flex-col justify-center items-center'>
-                  <img className='max-h-[130px] max-w-[120px]  object-cover' src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png' />
+                  <img className='max-h-[130px] max-w-[120px] object-cover' alt="ReactPhoto" src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png' />
                   <h1 className='font-bold mb-2 mt-1'>React</h1>
                   <span>65%</span>
                 </div>
                 <div className='rounded-md border-2 border-accent flex flex-col justify-center items-center'>
-                  <img className='max-h-[130px] max-w-[120px]  object-cover' src='https://img.freepik.com/free-icon/typescript_318-698173.jpg?w=2000' />
+                  <img className='max-h-[130px] max-w-[120px] object-cover' alt="TypeScriptPhoto" src='https://img.freepik.com/free-icon/typescript_318-698173.jpg?w=2000' />
                   <h1 className='font-bold mb-2 mt-1'>Type Script</h1>
                   <span>55%</span>
                 </div>
                 <div className='rounded-md border-2 border-accent flex flex-col justify-center items-center'>
-                  <img className='max-h-[130px] max-w-[120px]  object-cover' src={laravel} />
+                  <img className='max-h-[130px] max-w-[120px] object-cover' alt="LaravelPhoto" src={laravel} />
                   <h1 className='font-bold mb-2 mt-1'>Laravel</h1>
                   <span>60%</span>
                 </div>
                 <div className='rounded-md border-2 border-accent flex flex-col justify-center items-center'>
-                  <img className='max-h-[130px] max-w-[120px]  object-cover' src={firbase} />
+                  <img className='max-h-[130px] max-w-[120px] object-cover' alt="FirbasePhoto" src={firbase} />
                   <h1 className='font-bold mb-2 mt-1'>Firebase</h1>
                   <span>50%</span>
                 </div>
