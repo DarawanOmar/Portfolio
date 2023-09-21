@@ -17,7 +17,19 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div id="root">
+      <form name="contact" data-netlify="true" hidden>
+      <div>
+        <input type="text" name="name" id="name" >
+      </div>
+      <div>
+        <input type="text" name="email" id="email">
+      </div>
+      <div>
+        <textarea type="text" name="message" id="message"></textarea>
+      </div>
+    </form>
+    </div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
