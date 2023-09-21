@@ -18,7 +18,7 @@ const Contact = () => {
               </div>
             </motion.div>
             {/* Form */}
-            <motion.form name="contact" method="POST"  className='flex-1 border-2  rounded-2xl p-6 flex flex-col gap-y-6 pb-24' variants={fadeIn('left',0.3)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.4}}>
+            <motion.form name="contact" method="POST" netlify-honeypot="bot-field"  className='flex-1 border-2  rounded-2xl p-6 flex flex-col gap-y-6 pb-24' variants={fadeIn('left',0.3)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.4}}>
               <input type='hidden' name='form-name' value='contact'/>
               <input type='text' id='name' name='name' value={name} onChange={(e) => setName(e.target.value)} className='w-full bg-transparent py-3 outline-none border-b focus:border-accent  placeholder:text-right placeholder:text-gray-300 transition-all' placeholder='ناو'/>
               <input type='email' id='email' name='email' value={email} onChange={(e) => setEmail(e.target.value)} className='w-full bg-transparent py-3 outline-none border-b focus:border-accent  placeholder:text-right placeholder:text-gray-300 transition-all' placeholder='ئیمەیڵ'/>
