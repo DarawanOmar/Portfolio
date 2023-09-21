@@ -31,14 +31,14 @@ const Work = () => {
                     <span className='text-gradient'> UI/UX Design & Web Application</span>
                   </div>
                   {/* Titile */}
-                  <div className='absolute -bottom-full left-2 md:left-12 group-hover:bottom-12 md:group-hover:bottom-14 transition-all duration-1000 z-40'>
-                    <span className='text-3xl text-white'>RealEstate</span>
+                  <div className='absolute -bottom-full left-0 sm:left-2 md:left-12 group-hover:bottom-12 md:group-hover:bottom-14 transition-all duration-1000 z-40'>
+                    <span className='text-2xl sm:text-3xl text-white'>RealEstate</span>
                   </div>
-                  <div className='absolute -bottom-full left-[150px] md:left-[250px] group-hover:bottom-[50px] transition-all duration-1000 z-40'>
-                    <a href="https://www.behance.net/gallery/180458825/RealEstate-Application"><span className='text-2xl text-white px-6 py-1 rounded-full border hover:bg-black/70 duration-500 cursor-pointer'>See</span></a>
+                  <div className='absolute -bottom-full left-[110px] sm:left-[150px] md:left-[250px] group-hover:bottom-[50px] transition-all duration-1000 z-40'>
+                    <a href="https://www.behance.net/gallery/180458825/RealEstate-Application"><span className='text-xl sm:text-2xl text-white px-6 sm:py-1 rounded-full border hover:bg-black/70 duration-500 cursor-pointer'>See</span></a>
                   </div>
-                  <div className='absolute -bottom-full left-[250px] md:left-[400px] group-hover:bottom-[50px] transition-all duration-1000 z-40'>
-                    <a href="https://www.behance.net/gallery/180458825/RealEstate-Application"><span className='text-2xl text-white px-6 py-1 rounded-full border hover:bg-black/70 duration-500 cursor-pointer'>Visit</span></a>
+                  <div className='absolute -bottom-full left-[200px] sm:left-[250px] md:left-[400px] group-hover:bottom-[50px] transition-all duration-1000 z-40'>
+                    <a href="https://www.behance.net/gallery/180458825/RealEstate-Application"><span className='text-xl sm:text-2xl text-white px-6 sm:py-1 rounded-full border hover:bg-black/70 duration-500 cursor-pointer'>Visit</span></a>
                   </div>
                 </div>
             </motion.div>
@@ -55,14 +55,14 @@ const Work = () => {
                     <span className='text-gradient'> UI/UX Design & Web Application</span>
                   </div>
                   {/* Titile */}
-                  <div className='absolute -bottom-full left-2 md:left-12 group-hover:bottom-6 md:group-hover:bottom-14 transition-all duration-1000 z-40'>
-                    <span className='text-3xl text-white'>Best East <br/> Dillevery</span>
+                  <div className='absolute -bottom-full left sm:left-2 md:left-12 group-hover:bottom-6 md:group-hover:bottom-14 transition-all duration-1000 z-40'>
+                    <span className='text-2xl sm:text-3xl text-white'>Best East <br/> Dillevery</span>
                   </div>
-                  <div className='absolute -bottom-full left-[150px] md:left-[250px] group-hover:bottom-[50px] transition-all duration-1000 z-40'>
-                    <a href="https://www.behance.net/gallery/180457803/Best-Eat-Delivery-Application"><span className='text-2xl text-white px-6 py-1 rounded-full border hover:bg-black/70 duration-500 cursor-pointer'>See</span></a>
+                  <div className='absolute -bottom-full left-[110px] sm:left-[150px] md:left-[250px] group-hover:bottom-[50px] transition-all duration-1000 z-40'>
+                    <a href="https://www.behance.net/gallery/180457803/Best-Eat-Delivery-Application"><span className='text-xl sm:text-2xl text-white px-6 sm:py-1 rounded-full border hover:bg-black/70 duration-500 cursor-pointer'>See</span></a>
                   </div>
-                  <div className='absolute -bottom-full left-[250px] md:left-[400px] group-hover:bottom-[50px] transition-all duration-1000 z-40'>
-                    <a href="https://fastfood-project.firebaseapp.com/"><span className='text-2xl text-white px-6 py-1 rounded-full border hover:bg-black/70 duration-500 cursor-pointer'>Visit</span></a>
+                  <div className='absolute -bottom-full left-[200px] sm:left-[250px] md:left-[400px] group-hover:bottom-[50px] transition-all duration-1000 z-40'>
+                    <a href="https://fastfood-project.firebaseapp.com/"><span className='text-xl sm:text-2xl text-white px-6 sm:py-1 rounded-full border hover:bg-black/70 duration-500 cursor-pointer'>Visit</span></a>
                   </div>
                 </div>
                {/* Image */}
@@ -76,14 +76,14 @@ const Work = () => {
                     <span className='text-gradient'> UI/UX Design & Web Application</span>
                   </div>
                   {/* Titile */}
-                  <div className='absolute -bottom-full left-2 md:left-12 group-hover:bottom-6 md:group-hover:bottom-14 transition-all duration-1000 z-40'>
-                    <span className='text-3xl text-white'>To Do <br/> Application</span>
+                  <div className='absolute -bottom-full left sm:left-2 md:left-12 group-hover:bottom-6 md:group-hover:bottom-14 transition-all duration-1000 z-40'>
+                    <span className='text-2xl sm:text-3xl text-white'>To Do <br/> Application</span>
                   </div>
-                  <div className='absolute -bottom-full left-[150px] md:left-[250px] group-hover:bottom-[50px] transition-all duration-1000 z-40'>
-                    <a href="https://www.behance.net/gallery/180458175/To-Do-Application"><span className='text-2xl text-white px-6 py-1 rounded-full border hover:bg-black/70 duration-500 cursor-pointer'>See</span></a>
+                  <div className='absolute -bottom-full left-[110px] sm:left-[150px] md:left-[250px] group-hover:bottom-[50px] transition-all duration-1000 z-40'>
+                    <a href="https://www.behance.net/gallery/180458175/To-Do-Application"><span className='text-xl sm:text-2xl text-white px-6 sm:py-1 rounded-full border hover:bg-black/70 duration-500 cursor-pointer'>See</span></a>
                   </div>
-                  <div className='absolute -bottom-full left-[250px] md:left-[400px] group-hover:bottom-[50px] transition-all duration-1000 z-40'>
-                    <a href="https://dara-todo.netlify.app/"><span className='text-2xl text-white px-6 py-1 rounded-full border hover:bg-black/70 duration-500 cursor-pointer'>Visit</span></a>
+                  <div className='absolute -bottom-full left-[200px] sm:left-[250px] md:left-[400px] group-hover:bottom-[50px] transition-all duration-1000 z-40'>
+                    <a href="https://dara-todo.netlify.app/"><span className='text-xl sm:text-2xl text-white px-6 sm:py-1 rounded-full border hover:bg-black/70 duration-500 cursor-pointer'>Visit</span></a>
                   </div>
                 </div>
                 

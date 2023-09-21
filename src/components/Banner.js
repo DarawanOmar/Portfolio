@@ -18,7 +18,7 @@ const Banner = () => {
                   <span className='mr-4 text-white'> من حەزم لە  </span>
                   <TypeAnimation sequence={['گەشەپێدەری وێبە',2000,'دیزاینی وێبە',2000,"گەشەپێدەری فوول ستاکە",2000]} speed={50} repeat={Infinity} wrapper='span' className='text-accent'/>
                 </motion.div>
-                <motion.p variants={fadeIn('up',0.5)} whileInView={'show'} initial='hidden' viewport={{once:false,amount:0.7}} className='mb-8 max-w-lg mx-auto lg:mx-0 '>
+                <motion.p variants={fadeIn('up',0.5)} whileInView={'show'} initial='hidden' viewport={{once:false,amount:0.7}} className='mb-8 max-w-lg mx-auto lg:mx-0 text-right'>
                         سڵاو من خوێندکارم لە کۆلێجی سلێمانی پۆلی تەکنیک لە بەشی ئای تی لە قۆناخی سێ ، تەمەنی ٢١ ساڵە ، ئێستا وەک گەشەپێدەری بەشی پێشەوە کاردەکەم وە حەزم لێیە ببم بە فول ستاک ئنشااللە ، دەتوانم ڕووکارەکان وەکو خۆی دروست بکەمەوە بە ڕێژەی لە سەدا هەشتا  ،وە ئەزمونی یەک ساڵم هەیە</motion.p>
                 <motion.div variants={fadeIn('up',0.6)} whileInView={'show'} initial='hidden' viewport={{once:false,amount:0.7}} className='flex max-w-max mx-auto lg:mx-0 items-center gap-x-6 mb-12'>
                   <a href='https://github.com/DarawanOmar'  className='text-gradient btn-link'>پەڕەی کەسی</a>

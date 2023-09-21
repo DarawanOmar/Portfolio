@@ -3,7 +3,7 @@ import Banner from './components/Banner';
 import Header from './components/Header';
 import Nav from './components/Nav';
 import About from './components/About';
-import Services from './components/Services';
+import Skills from './components/Skills';
 import Work from './components/Work';
 import Contact from './components/Contact';
 import Lottie from 'lottie-react'
@@ -27,7 +27,7 @@ const App = () => {
       <Banner />
       <Nav />
       <About />
-      <Services />
+      <Skills />
       <Work />
       <Contact />
       <div className='h-[40px]'></div>
