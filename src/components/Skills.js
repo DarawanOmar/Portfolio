@@ -18,45 +18,45 @@ const Skills = () => {
               <span className=' flex justify-end items-end'><button className='btn btn-sm'> شارەزایەکانم ببینە </button></span>
             </motion.div>
             {/* Services */}
-            <motion.div  className='flex-1 grid grid-cols-2 gap-5 text-right px-2' variants={fadeIn('left',0.5)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.4}}>
-                <div className='rounded-md border-2 border-accent flex flex-col justify-center items-center'>
+            <div  className='flex-1 grid grid-cols-2 gap-5 text-right px-2' >
+                <motion.div className='rounded-md border-2 border-accent flex flex-col justify-center items-center' variants={fadeIn('left',0.5)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.4}}>
                   <img className='max-h-[130px] max-w-[120px] object-cover' src={html} alt="HtmlPhoto" />
                   <h1 className='font-bold mt-1'>HTML</h1>
                   <span>80%</span>
-                </div>
+                </motion.div>
                 
-                <div className='rounded-md border-2 border-accent flex flex-col justify-center items-center'>
+                <motion.div className='rounded-md border-2 border-accent flex flex-col justify-center items-center' variants={fadeIn('left',0.5)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.4}}>
                   <img className='max-h-[130px] max-w-[120px] object-cover' alt="CssPhoto" src={css} />
                   <h1 className='font-bold  mt-1'>Css</h1>
                   <span>70%</span>
-                </div>
-                <div className='rounded-md border-2 border-accent flex flex-col justify-center items-center'>
+                </motion.div>
+                <motion.div className='rounded-md border-2 border-accent flex flex-col justify-center items-center' variants={fadeIn('left',0.5)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.4}}>
                   <img className='max-h-[130px] max-w-[120px] object-cover bg-transparent' alt="TailwindcssPhoto" src='https://files.raycast.com/sjxs3pxsc6k63ju0fzv8l3cu4v90' />
                   <h1 className='font-bold  mt-1'>Tailwindcss</h1>
                   <span>85%</span>
-                </div>
-                <div className='rounded-md border-2 border-accent flex flex-col justify-center items-center'>
+                </motion.div>
+                <motion.div className='rounded-md border-2 border-accent flex flex-col justify-center items-center' variants={fadeIn('left',0.5)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.4}}>
                   <img className='max-h-[130px] max-w-[120px] object-cover' alt="ReactPhoto" src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png' />
                   <h1 className='font-bold  mt-1'>React</h1>
                   <span>65%</span>
-                </div>
-                <div className='rounded-md border-2 border-accent flex flex-col justify-center items-center'>
+                </motion.div>
+                <motion.div className='rounded-md border-2 border-accent flex flex-col justify-center items-center' variants={fadeIn('left',0.5)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.4}}>
                   <img className='max-h-[130px] max-w-[120px] object-cover' alt="TypeScriptPhoto" src='https://img.freepik.com/free-icon/typescript_318-698173.jpg?w=2000' />
                   <h1 className='font-bold  mt-1'>Type Script</h1>
                   <span>55%</span>
-                </div>
-                <div className='rounded-md border-2 border-accent flex flex-col justify-center items-center'>
+                </motion.div>
+                <motion.div className='rounded-md border-2 border-accent flex flex-col justify-center items-center' variants={fadeIn('left',0.5)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.4}}>
                   <img className='max-h-[130px] max-w-[120px] object-cover' alt="LaravelPhoto" src={laravel} />
                   <h1 className='font-bold  mt-1'>Laravel</h1>
                   <span>60%</span>
-                </div>
-                <div className='rounded-md border-2 border-accent flex flex-col justify-center items-center'>
+                </motion.div>
+                <motion.div className='rounded-md border-2 border-accent flex flex-col justify-center items-center' variants={fadeIn('left',0.5)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.4}}>
                   <img className='max-h-[130px] max-w-[120px] object-cover' alt="FirbasePhoto" src={firbase} />
                   <h1 className='font-bold  mt-1'>Firebase</h1>
                   <span>50%</span>
-                </div>
+                </motion.div>
                
-            </motion.div>
+            </div>
             {/* <motion.div  className='flex-1 text-right' variants={fadeIn('left',0.5)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.4}}>
               <div>
                 {services.map((service,index) => {
