@@ -15,11 +15,11 @@ const Contact = () => {
               </div>
             </motion.div>
             {/* Form */}
-            <motion.form className='flex-1 border-2  rounded-2xl p-6 flex flex-col gap-y-6 pb-24' variants={fadeIn('left',0.3)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.4}}>
-              <input type='text' className='w-full bg-transparent py-3 outline-none border-b focus:border-accent  placeholder:text-right placeholder:text-gray-300 transition-all' placeholder='ناو'/>
-              <input type='email' className='w-full bg-transparent py-3 outline-none border-b focus:border-accent  placeholder:text-right placeholder:text-gray-300 transition-all' placeholder='ئیمەیڵ'/>
-              <textarea className='resize-none mb-12 w-full bg-transparent pb-12 outline-none border-b focus:border-accent  placeholder:text-right placeholder:text-gray-300 transition-all' placeholder='نامە' ></textarea>
-              <button className='btn btn-lg'>ناردنی نامە</button>
+            <motion.form netlify name='contact' className='flex-1 border-2  rounded-2xl p-6 flex flex-col gap-y-6 pb-24' variants={fadeIn('left',0.3)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.4}}>
+              <input type='text' name='name' className='w-full bg-transparent py-3 outline-none border-b focus:border-accent  placeholder:text-right placeholder:text-gray-300 transition-all' placeholder='ناو'/>
+              <input type='email' name='email' className='w-full bg-transparent py-3 outline-none border-b focus:border-accent  placeholder:text-right placeholder:text-gray-300 transition-all' placeholder='ئیمەیڵ'/>
+              <textarea name='message' className='resize-none mb-12 w-full bg-transparent pb-12 outline-none border-b focus:border-accent  placeholder:text-right placeholder:text-gray-300 transition-all' placeholder='نامە' ></textarea>
+              <button type='submit' className='btn btn-lg'>ناردنی نامە</button>
             </motion.form>
         </div>
       </div>

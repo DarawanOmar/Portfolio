@@ -20,13 +20,13 @@ const Banner = () => {
                 </motion.div>
                 <motion.p variants={fadeIn('up',0.5)} whileInView={'show'} initial='hidden' viewport={{once:false,amount:0.7}} className='mb-8 max-w-lg mx-auto lg:mx-0 text-right'>
                         سڵاو من خوێندکارم لە کۆلێجی سلێمانی پۆلی تەکنیک لە بەشی ئای تی لە قۆناخی سێ ، تەمەنی ٢١ ساڵە ، ئێستا وەک گەشەپێدەری بەشی پێشەوە کاردەکەم وە حەزم لێیە ببم بە فول ستاک ئنشااللە ، دەتوانم ڕووکارەکان وەکو خۆی دروست بکەمەوە بە ڕێژەی لە سەدا هەشتا  ،وە ئەزمونی یەک ساڵم هەیە</motion.p>
-                <motion.div variants={fadeIn('up',0.6)} whileInView={'show'} initial='hidden' viewport={{once:false,amount:0.7}} className='flex max-w-max mx-auto lg:mx-0 items-center gap-x-6 mb-12'>
+                <motion.div className='flex lg:mx-0 justify-center items-center gap-x-6 mb-12 '  variants={fadeIn('up',0.6)} whileInView={'show'} initial='hidden' viewport={{once:false,amount:0.7}} >
                   <a href='https://github.com/DarawanOmar'  className='text-gradient btn-link'>پەڕەی کەسی</a>
                   <button className='btn btn-lg'>
                     <Link to='contact' smooth={true} activeClass='active' spy={true} >پەیوەندم پێوە بکە</Link>
                   </button>
                 </motion.div>
-                <motion.div variants={fadeIn('up',0.8)} whileInView={'show'} initial='hidden' viewport={{once:false,amount:0.7}} className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0 pb-20'>
+                <motion.div className='flex text-[20px] justify-center gap-x-6  lg:mx-0 pb-20' variants={fadeIn('up',0.8)} whileInView={'show'} initial='hidden' viewport={{once:false,amount:0.7}} >
                   <a  href='https://github.com/DarawanOmar'  className='hover:scale-110 hover:text-amber-600 duration-500'  ><FaGithub/></a>
                   <a  href='https://instagram.com/DarawanOmar'  className='hover:scale-110 hover:bg-gradient-to-r from-red-600 to-blue-700 rounded-full duration-500'  ><FaInstagram/></a>
                   <a  href='https://snapchat.com/darawan_omar'  className='hover:scale-110 hover:text-yellow-400 duration-500'  ><FaSnapchat/></a>

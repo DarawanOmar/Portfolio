@@ -27,7 +27,7 @@ const Work = () => {
                   {/* Image */}
                   <img className='group-hover:scale-125 transition-all duration-500' src={image1} alt='image01'/>
                   {/* PreTitle */}
-                  <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-40'>
+                  <div className='absolute -bottom-full text-left left-12 group-hover:bottom-24 transition-all duration-500 z-40'>
                     <span className='text-gradient'> UI/UX Design & Web Application</span>
                   </div>
                   {/* Titile */}
@@ -42,7 +42,7 @@ const Work = () => {
                   </div>
                 </div>
             </motion.div>
-
+            {/* Two Cards Right */}
             <motion.div  className='flex-1 flex flex-col gap-y-10' variants={fadeIn('left',0.3)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.4}}>
                {/* Image */}
                <div className='group relative overflow-hidden border-2 border-[#B809C3] rounded-xl '>
@@ -51,11 +51,11 @@ const Work = () => {
                   {/* Image */}
                   <img className='group-hover:scale-125 transition-all duration-500' src={image2} alt='image01'/>
                   {/* PreTitle */}
-                  <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-40'>
+                  <div className='absolute -bottom-full text-left left-12 group-hover:bottom-24 transition-all duration-500 z-40'>
                     <span className='text-gradient'> UI/UX Design & Web Application</span>
                   </div>
                   {/* Titile */}
-                  <div className='absolute -bottom-full left sm:left-2 md:left-12 group-hover:bottom-6 md:group-hover:bottom-14 transition-all duration-1000 z-40'>
+                  <div className='absolute -bottom-full left-2 md:left-12 group-hover:bottom-6  transition-all duration-1000 z-40'>
                     <span className='text-2xl sm:text-3xl text-white'>Best East <br/> Dillevery</span>
                   </div>
                   <div className='absolute -bottom-full left-[110px] sm:left-[150px] md:left-[250px] group-hover:bottom-[50px] transition-all duration-1000 z-40'>
@@ -72,11 +72,11 @@ const Work = () => {
                   {/* Image */}
                   <img className='group-hover:scale-125 transition-all duration-500' src={image3} alt='image01'/>
                   {/* PreTitle */}
-                  <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-40'>
+                  <div className='absolute -bottom-full left-12 text-left group-hover:bottom-24 transition-all duration-500 z-40'>
                     <span className='text-gradient'> UI/UX Design & Web Application</span>
                   </div>
                   {/* Titile */}
-                  <div className='absolute -bottom-full left sm:left-2 md:left-12 group-hover:bottom-6 md:group-hover:bottom-14 transition-all duration-1000 z-40'>
+                  <div className='absolute -bottom-full left-2 md:left-12 group-hover:bottom-6  transition-all duration-1000 z-40'>
                     <span className='text-2xl sm:text-3xl text-white'>To Do <br/> Application</span>
                   </div>
                   <div className='absolute -bottom-full left-[110px] sm:left-[150px] md:left-[250px] group-hover:bottom-[50px] transition-all duration-1000 z-40'>

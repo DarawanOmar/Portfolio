@@ -8,7 +8,7 @@ const Header = () => {
         <button className='btn btn-sm '>
           <Link to='contact' smooth={true} activeClass='active' spy={true} >لەگەڵ من کاربکە</Link>
         </button>
-        <div className=' text-[35px] lg:text-[110px] font-bold leading-[0.8]'>
+        <div className=' text-[35px] lg:text-[90px] font-bold leading-[0.8]'>
           <span className='text-accent'>بەخێربێن</span> 
         </div>
       </div>
