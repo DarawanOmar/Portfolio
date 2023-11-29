@@ -13,7 +13,7 @@ const Work = () => {
           <div className='grid grid-cols lg:grid-cols-2 gap-6'>
           {/* <div className='flex flex-col lg:flex-row gap-x-10'> */}
 
-            <motion.div  className='flex-1 flex flex-col gap-y-12 mb-1 lg:mb-0 text-right' variants={fadeIn('right',0.3)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.4}}>
+            <motion.div  className='flex-1 flex flex-col gap-y-20 mb-1 lg:mb-0 text-right' variants={fadeIn('right',0.3)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.4}}>
             {/* Text */}
               <div>
                 <h2 className='text-[50px] text-accent leading-tight font-bold mb-2'> تازەترین <br/> کارەکانم</h2>

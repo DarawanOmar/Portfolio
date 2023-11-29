@@ -14,9 +14,9 @@ const About = () => {
       <div className='container mx-auto '>
         <div className='flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0 md:h-screen'>
             {/* Image */}
-            <motion.div variants={fadeIn('right',0.3)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.4}} className='flex md:flex-1 bg-about bg-contain h-[640px] bg-no-repeat mix-blend-lighten bg-top '></motion.div>
+            <motion.div className='flex md:flex-1 bg-about bg-contain h-[400px] bg-no-repeat mix-blend-lighten bg-top ' variants={fadeIn('right',0.3)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.4}}></motion.div>
             {/* Text */}
-            <motion.div variants={fadeIn('left',0.5)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.4}} className='flex-1 flex flex-col justify-end items-end text-right'>
+            <motion.div className='flex-1 flex flex-col justify-end items-end text-right' variants={fadeIn('left',0.5)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.4}} >
               <h1 className='h2 text-accent font-bold'> دەربارەی من</h1>
               <p className='h3 mb-4'>من  گەشەپێدەری بەشی پێ شەوەی وێبم وە ١ ساڵ ئەزموونم هەیە</p>
               <p className='mb-6'>من زۆرم حەز لە گەشەپێدەری وێبە بەردەوام کاری لەسەر دەکەم لە فێربوونی شتی نوێ و تازە لەگەڵ نوێ بونەوەکان دەڕۆم، وێب سایت و وێب ئەبڵیکەیشناکان بە زمان و فرەیمۆڕکە باش و نایابەکان دروست دەکەم</p>

@@ -13,7 +13,7 @@ const Banner = () => {
             <div className='flex flex-col gap-y-6 lg:flex-row lg:gap-x-12 lg:items-center'>
               {/* Text */}
               <div className='flex-1 text-center lg:text-left'>
-                <motion.h1 variants={fadeIn('up',0.3)} whileInView={'show'} initial='hidden' viewport={{once:false,amount:0.7}} className='text-[55px] lg:text-[110px] font-bold leading-[0.8]'> دارەوان <span className='text-accent'>ئای تی</span></motion.h1>
+                <motion.h1 variants={fadeIn('up',0.3)} whileInView={'show'} initial='hidden' viewport={{once:false,amount:0.7}} className='text-[55px] lg:text-[110px] font-bold leading-[0.8]'> دارەوان <span className='text-accent'> دیف</span></motion.h1>
                 <motion.div className='mb-6 mt-6  text-[26px] md:text-[40px] lg:text-[50px] font-secondary font-semibold uppercase leading-[1]' variants={fadeIn('up',0.4)} whileInView={'show'} initial='hidden' viewport={{once:false,amount:0.7}} >
                   <span className='mr-4 text-white'> من حەزم لە  </span>
                   <TypeAnimation sequence={['گەشەپێدەری وێبە',2000,'دیزاینی وێبە',2000,"گەشەپێدەری فوول ستاکە",2000]} speed={50} repeat={Infinity} wrapper='span' className='text-accent'/>
