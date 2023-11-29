@@ -14,7 +14,10 @@
 .active {
   @apply bg-black
 }
-
+::selection{
+  background-color: white;
+  color: #B809C3;
+}
 .active {
   color: #B809C3;
   padding: 1rem;

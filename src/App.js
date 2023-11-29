@@ -8,6 +8,9 @@ import Work from './components/Work';
 import Contact from './components/Contact';
 import Lottie from 'lottie-react'
 import ballloader from './assets/ballloader.json'
+import { Provider } from 'react-redux'
+import { store } from './Provider/store/store';
+import DataProvider from './Provider/data';
 
 const App = () => {
   const[loader,setLoader] = useState(true)
@@ -23,14 +26,18 @@ const App = () => {
   }
   return (
     <div className='bg-neutral-900 bg-no-repeat object-cover overflow-hidden'>
-      <Header />
-      <Banner />
-      <Nav />
-      <About />
-      <Skills />
-      <Work />
-      <Contact />
-      <div className='h-[40px]'></div>
+      <Provider store={store}>
+       <DataProvider>
+         <Header />
+         <Banner />
+         <Nav />
+         <About />
+         <Skills />
+         <Work />
+         <Contact />
+         <div className='h-[40px]'></div>
+       </DataProvider>
+      </Provider>
     </div>
   );
 };

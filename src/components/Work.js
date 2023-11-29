@@ -1,14 +1,17 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import {motion} from 'framer-motion'
 import { fadeIn} from '../variants';
 import image1 from '../assets/portfolio-img1.1.png'
 import image2 from '../assets/portfolio-img2.1.png'
 import image3 from '../assets/portfolio-img3.1.png'
+import { AppContext } from '../Provider/data';
 
 const Work = () => {
+  const {content} = useContext(AppContext)
+
   return (
       <section className='section' id='work'>
-        <div className='container mx-auto'>
+        <div className='container mx-auto mt-32'>
           {/* Both */}
           <div className='grid grid-cols lg:grid-cols-2 gap-6'>
           {/* <div className='flex flex-col lg:flex-row gap-x-10'> */}
@@ -16,9 +19,9 @@ const Work = () => {
             <motion.div  className='flex-1 flex flex-col gap-y-20 mb-1 lg:mb-0 text-right' variants={fadeIn('right',0.3)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.4}}>
             {/* Text */}
               <div>
-                <h2 className='text-[50px] text-accent leading-tight font-bold mb-2'> تازەترین <br/> کارەکانم</h2>
-                <p className=' mb-16 text-right text-[25px]'> ئەمانە بریتین لە تازەترین کارەکانی من  </p>
-                <button className='btn btn-lg text-[20px]'> بینینی هەموو پڕۆجێکتەکان</button>
+                <h2 className='text-[50px] text-accent leading-tight font-bold mb-2'> {content.newest} <br/> {content.myWork}</h2>
+                <p className=' mb-16 text-right text-[25px]'> {content.lookWork} </p>
+                <button className='btn btn-lg text-[20px]'> {content.lookAll}</button>
               </div>
               {/* Image */}
                 <div className='group relative overflow-hidden border-2 border-[#B809C3] rounded-xl '>
