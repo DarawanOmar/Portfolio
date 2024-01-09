@@ -4,10 +4,12 @@ import languages from "../data/language.json";
 import { useSelector } from "react-redux";
 
 export const AppContext = createContext();
+
 function DataProvider({ children }) {
   const language = useSelector((state) => state.languageReducer.lang);
 
-  const [content, setContent] = useState({});
+  const [content, setContent] = useState("Salh");
+
   useEffect(() => {
     if (language === "kurdish") {
       setContent(languages.kurdish);
@@ -15,6 +17,7 @@ function DataProvider({ children }) {
       setContent(languages.english);
     }
   }, [language]);
+
   return (
     <AppContext.Provider value={{ content }}>{children}</AppContext.Provider>
   );
