@@ -18,10 +18,10 @@ const Work = () => {
 
           <motion.div
             className="flex-1 flex flex-col gap-y-20 mb-1 lg:mb-0 text-right"
-            variants={fadeIn("right", 0.3)}
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{ once: false, amount: 0.4 }}
+            // variants={fadeIn("right", 0.3)}
+            // initial="hidden"
+            // whileInView={"show"}
+            // viewport={{ once: false, amount: 0.4 }}
           >
             {/* Text */}
             <div>
@@ -80,10 +80,10 @@ const Work = () => {
           {/* Two Cards Right */}
           <motion.div
             className="flex-1 flex flex-col gap-y-10"
-            variants={fadeIn("left", 0.3)}
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{ once: false, amount: 0.4 }}
+            // variants={fadeIn("left", 0.3)}
+            // initial="hidden"
+            // whileInView={"show"}
+            // viewport={{ once: false, amount: 0.4 }}
           >
             {/* Image */}
             <div className="group relative overflow-hidden border-2 border-[#B809C3] rounded-xl ">

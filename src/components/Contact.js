@@ -24,10 +24,10 @@ const Contact = () => {
           {/* Text */}
           <motion.div
             className="flex-1"
-            variants={fadeIn("right", 0.3)}
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{ once: false, amount: 0.4 }}
+            // variants={fadeIn("right", 0.3)}
+            // initial="hidden"
+            // whileInView={"show"}
+            // viewport={{ once: false, amount: 0.4 }}
           >
             <div>
               <p
@@ -52,10 +52,10 @@ const Contact = () => {
             method="POST"
             netlify-honeypot="bot-field"
             className={`flex-1 border-2  rounded-2xl p-6 flex flex-col gap-y-6 pb-20 mt-4 md:mt-0 `}
-            variants={fadeIn("left", 0.3)}
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{ once: false, amount: 0.4 }}
+            // variants={fadeIn("left", 0.3)}
+            // initial="hidden"
+            // whileInView={"show"}
+            // viewport={{ once: false, amount: 0.4 }}
           >
             <input type="hidden" name="form-name" value="contact" />
             <input

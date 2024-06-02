@@ -30,28 +30,26 @@ const Banner = () => {
           {/* Text */}
           <div className="flex-1 text-center lg:text-left">
             <motion.h1
-              variants={fadeIn("up", 0.3)}
-              whileInView={"show"}
-              initial="hidden"
-              viewport={{ once: false, amount: 0.7 }}
+              // variants={fadeIn("up", 0.3)}
+              // whileInView={"show"}
+              // initial="hidden"
+              // viewport={{ once: false, amount: 0.7 }}
               className={`text-[55px] lg:text-[100px] font-bold leading-[0.8] ${
                 language === "kurdish" ? "text-right" : "text-left"
               }`}
             >
-              {" "}
               {content.name} <span className="text-accent"> {content.dev}</span>
             </motion.h1>
             <motion.div
               className={`mb-6 mt-6  text-[26px] md:text-[40px] lg:text-[50px] font-secondary font-semibold uppercase leading-[1] ${
                 language === "kurdish" ? "text-right" : "text-left"
               }`}
-              variants={fadeIn("up", 0.4)}
-              whileInView={"show"}
-              initial="hidden"
-              viewport={{ once: false, amount: 0.7 }}
+              // variants={fadeIn("up", 0.4)}
+              // whileInView={"show"}
+              // initial="hidden"
+              // viewport={{ once: false, amount: 0.7 }}
             >
               <span className="mr-4 text-white">
-                {" "}
                 {language === "kurdish" ? "من حەزم لە" : "I Like "}{" "}
               </span>
               {language === "kurdish" && (
@@ -88,10 +86,10 @@ const Banner = () => {
               )}
             </motion.div>
             <motion.p
-              variants={fadeIn("up", 0.5)}
-              whileInView={"show"}
-              initial="hidden"
-              viewport={{ once: false, amount: 0.7 }}
+              // variants={fadeIn("up", 0.5)}
+              // whileInView={"show"}
+              // initial="hidden"
+              // viewport={{ once: false, amount: 0.7 }}
               className={`mb-8  lg:mx-0  ${
                 language === "kurdish" ? "text-right" : "text-left"
               }`}
@@ -100,10 +98,10 @@ const Banner = () => {
             </motion.p>
             <motion.div
               className="flex lg:mx-0 justify-center items-center gap-x-6 mb-12 "
-              variants={fadeIn("up", 0.6)}
-              whileInView={"show"}
-              initial="hidden"
-              viewport={{ once: false, amount: 0.7 }}
+              // variants={fadeIn("up", 0.6)}
+              // whileInView={"show"}
+              // initial="hidden"
+              // viewport={{ once: false, amount: 0.7 }}
             >
               <a
                 href="https://github.com/DarawanOmar"
@@ -124,10 +122,10 @@ const Banner = () => {
             </motion.div>
             <motion.div
               className="flex text-[20px] justify-center gap-x-6  lg:mx-0 pb-20"
-              variants={fadeIn("up", 0.8)}
-              whileInView={"show"}
-              initial="hidden"
-              viewport={{ once: false, amount: 0.7 }}
+              // variants={fadeIn("up", 0.8)}
+              // whileInView={"show"}
+              // initial="hidden"
+              // viewport={{ once: false, amount: 0.7 }}
             >
               <a
                 href="https://github.com/DarawanOmar"
@@ -163,9 +161,9 @@ const Banner = () => {
           </div>
           {/* Image */}
           <motion.div
-            variants={fadeIn("down", 0.5)}
-            whileInView={"show"}
-            initial="hidden"
+            // variants={fadeIn("down", 0.5)}
+            // whileInView={"show"}
+            // initial="hidden"
             className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px] "
           >
             <img src={Image} alt="Me" />
