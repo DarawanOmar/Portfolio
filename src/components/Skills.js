@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { motion } from "framer-motion";
-import { fadeIn } from "../variants";
+// import { fadeIn } from "../variants";
 import laravel from "../assets/laravel.png";
 import firbase from "../assets/firebase.png";
 import css from "../assets/css.png";

@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import CountUp from "react-countup";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { fadeIn } from "../variants";
+// import { fadeIn } from "../variants";
 import { Link } from "react-scroll";
 import { useSelector } from "react-redux";
 import { AppContext } from "../Provider/data";

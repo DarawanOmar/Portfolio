@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { motion } from "framer-motion";
-import { fadeIn } from "../variants";
+// import { fadeIn } from "../variants";
 import image1 from "../assets/portfolio-img1.1.png";
 import image2 from "../assets/portfolio-img2.1.png";
 import image3 from "../assets/portfolio-img3.1.png";
